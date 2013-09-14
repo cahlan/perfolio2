@@ -9,7 +9,23 @@ Copyright 2013, Josh Cope
 
 /*enter styling here*/
 
+body {
+	font-family: "Champagne & Limousines", "Tw Cen MT", Verdana;
+	color: #fff;
+	background: url("../images/timp2.jpg") no-repeat;
+	background-size: cover;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
 
+/*.main-img img {
+	width: 100%;
+	height: 100%;
+}*/
 
 /* =============================================================================
    Media Queries
