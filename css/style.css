@@ -38,7 +38,11 @@ header {
 	color: #364054;
 }
 
-.logo a,a:link {
+header div a {
+	color: #364054;
+}
+
+.logo a:link {
 	color: #364054;
 	text-decoration: none;
 }
