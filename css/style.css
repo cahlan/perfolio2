@@ -14,6 +14,7 @@ body {
 	color: #fff;
 	background: url("../images/timp2.jpg") no-repeat;
 	background-size: cover;
+	/*background-position: ;*/
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -34,13 +35,10 @@ header {
 	padding: 0.5em 0;
 	font-size: 1.3em;
 	margin-bottom: 3em;
-}
-
-.logo a {
 	color: #364054;
 }
 
-.logo a:link {
+.logo a,a:link {
 	color: #364054;
 	text-decoration: none;
 }
@@ -67,16 +65,12 @@ nav div {
 	margin-left: 1em;
 }
 
-nav div a {
-	color: #364054;
-}
-
-nav div a:link {
+.nav div a,a:link {
 	color: #364054;
 	text-decoration: none;
 }
 
-nav div a:hover {
+.nav div a:hover {
 	color: #fff;
 	transition: all 0.5s ease 0s;
 }
@@ -87,12 +81,14 @@ nav div a:hover {
     text-align: center;
 }
 
-.title {
+section .title {
 	font-size: 2em;
+	text-shadow: 0 2px 0 rgba(54, 64, 84, .9);
 }
 
-.sub-title {
+section .sub-title {
 	font-size: 5em;
+	text-shadow: 0 2px 0 rgba(54, 64, 84, .9);
 }
 
 #button {
@@ -109,21 +105,30 @@ nav div a:hover {
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.5em;
+	box-shadow: 0 2px 0 rgba(54, 64, 84, .9);
+	text-shadow: 0 2px 0 rgba(54, 64, 84, .9);
 	-webkit-border-radius: 0.1em;
 	-moz-border-radius: 0.1em;
 	border-radius: 0.1em;
 	margin: 0 auto;
 }
 
-.button a,a:link {
+#button a,a:link {
 	color: #f1c40f;
+	text-decoration: none;
+	box-shadow:;
+	text-shadow:;
 }
 
-.button a,a:hover {
-	border-color: #fff;
+#button a:hover {
+	border: 5px solid #fff;
 	color: #fff;
+	box-shadow: 0 2px 0 rgba(54, 64, 84, .9);
+	text-shadow: 0 2px 0 rgba(54, 64, 84, .9);
 	transition: all 0.5s ease 0s;
 }
+
+
 
 /* =============================================================================
    Media Queries
