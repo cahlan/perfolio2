@@ -22,10 +22,108 @@ body {
 	z-index: -1;
 }
 
-/*.main-img img {
-	width: 100%;
+header {
+	text-align: center;
+	color: #364054;
+}
+
+.logo {
+	background-color: #fff;
 	height: 100%;
-}*/
+	width: 100%;
+	padding: 0.5em 0;
+	font-size: 1.3em;
+	margin-bottom: 3em;
+}
+
+.logo a {
+	color: #364054;
+}
+
+.logo a:link {
+	color: #364054;
+	text-decoration: none;
+}
+
+.logo a:hover {
+	color: #f1c40f;
+	transition: all 0.5s ease 0s;
+}
+
+.nav {
+	width: 5em;
+	border-bottom: 1px solid #364054;
+	display: inline;
+	padding-bottom: 2em;
+}
+
+nav {
+	font-size: 1.3em;
+}
+
+nav div {
+	display: inline;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+nav div a {
+	color: #364054;
+}
+
+nav div a:link {
+	color: #364054;
+	text-decoration: none;
+}
+
+nav div a:hover {
+	color: #fff;
+	transition: all 0.5s ease 0s;
+}
+
+#intro {
+	line-height: 60px;
+    padding-top: 12em;
+    text-align: center;
+}
+
+.title {
+	font-size: 2em;
+}
+
+.sub-title {
+	font-size: 5em;
+}
+
+#button {
+	margin-top: 3em;
+}
+
+.button {
+	border: 5px solid #f1c40f;
+	color: #f1c40f;
+	height: 100%;
+	width: 100%;
+	padding: 10px 25px;
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5em;
+	-webkit-border-radius: 0.1em;
+	-moz-border-radius: 0.1em;
+	border-radius: 0.1em;
+	margin: 0 auto;
+}
+
+.button a,a:link {
+	color: #f1c40f;
+}
+
+.button a,a:hover {
+	border-color: #fff;
+	color: #fff;
+	transition: all 0.5s ease 0s;
+}
 
 /* =============================================================================
    Media Queries
