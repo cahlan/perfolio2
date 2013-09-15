@@ -159,21 +159,25 @@ section .sub-title {
 	margin-bottom: 3em;
 }
 
-.project-img div {
+.one div {
 	width: 15em;
 	height: 15em;
 	background-color: rgba(54, 64, 84, .9);
+	display: inline-block;
 }
 
-.img-project {
-	display: inline;
-	float: left;
+.two div {
+	width: 15em;
+	height: 15em;
+	background-color: rgba(54, 64, 84, .9);
+	display: inline-block;
+	margin-bottom: 1.5em;
 }
 
 .p {
-	clear: both;
 	color: #f1c40f;
 	font-weight: 600;
+	padding-bottom: 1em;
 }
 
 .p a, a:link {
