@@ -168,20 +168,9 @@ section .sub-title {
 	margin-bottom: 3em;
 }
 
-.one div {
-	width: 15em;
-	height: 15em;
-	background-color: rgba(54, 64, 84, .9);
-	display: inline-block;
-	margin: 0 0.5em 1em;
-}
-
-.two div {
-	width: 15em;
-	height: 15em;
-	background-color: rgba(54, 64, 84, .9);
-	display: inline-block;
+.one img {
 	margin: 0 0.5em 1.5em;
+	border: 5px solid rgba(54, 64, 84, .9);
 }
 
 .p {
