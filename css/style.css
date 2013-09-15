@@ -63,6 +63,15 @@ header div a {
 	transition: all 0.5s ease 0s;
 }
 
+.logo a span {
+	color: #f1c40f;
+}
+
+.logo a:hover span {
+	color: #364054;
+	transition: all 0.5s ease 0s;
+}
+
 .nav {
 	width: 5em;
 	border-bottom: 1px solid #364054;
