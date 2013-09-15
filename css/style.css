@@ -145,19 +145,36 @@ section .sub-title {
 
 #work {
 	width: 100%;
-	height: 1000px;
+	height: 100%;
 	background-color: #fff;
 	color: #364054;
 	margin-top: 15%;
+	text-align: center;
 }
 
-.one {
-	text-align: center;
+.title-two {
+	font-size: 1.4em;
+	font-weight: 600;
+	padding-top: 5em;
 }
 
 .one div {
 	width: 20em;
-	height: 5em;
+	height: 20em;
+	background-color: rgba(54, 64, 84, .9);
+	display: inline-block;
+}
+
+.two div {
+	width: 20em;
+	height: 20em;
+	background-color: rgba(54, 64, 84, .9);
+	display: inline-block;
+}
+
+.three div {
+	width: 20em;
+	height: 20em;
 	background-color: rgba(54, 64, 84, .9);
 	display: inline-block;
 }
