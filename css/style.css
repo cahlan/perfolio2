@@ -10,7 +10,10 @@ Copyright 2013, Josh Cope
 /*enter styling here*/
 
 body {
-	font-family: "Champagne & Limousines", "Tw Cen MT", Verdana;
+	text-rendering: optimizelegibility;
+	font-family: "Champagne & Limousines", sans-serif, "Tw Cen MT", Verdana;
+	font-size: 100%;
+	font-weight: 500;
 	color: #fff;
 	background: url("../images/timp2.jpg") no-repeat;
 	background-size: cover;
@@ -34,7 +37,7 @@ header {
 	width: 100%;
 	padding: 0.5em 0;
 	font-size: 1.3em;
-	margin-bottom: 3em;
+	margin-bottom: 4em;
 	color: #364054;
 }
 
