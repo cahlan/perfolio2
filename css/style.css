@@ -173,6 +173,7 @@ section .sub-title {
 	height: 15em;
 	background-color: rgba(54, 64, 84, .9);
 	display: inline-block;
+	margin: 0 0.5em 1em;
 }
 
 .two div {
@@ -180,7 +181,7 @@ section .sub-title {
 	height: 15em;
 	background-color: rgba(54, 64, 84, .9);
 	display: inline-block;
-	margin-bottom: 1.5em;
+	margin: 0 0.5em 1.5em;
 }
 
 .p {
