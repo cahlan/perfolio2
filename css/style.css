@@ -34,6 +34,15 @@ body {
 }
 
 header {
+	background: url("../images/timp2.jpg") no-repeat;
+	background-size: 100%;
+	/*background-position:;*/
+	/*position: fixed;*/
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
 	text-align: center;
 	color: #364054;
 }
@@ -176,7 +185,7 @@ section .sub-title {
 .p {
 	color: #f1c40f;
 	font-weight: 600;
-	padding-bottom: 1em;
+	padding-bottom: 5em;
 }
 
 .p a, a:link {
@@ -185,6 +194,33 @@ section .sub-title {
 
 .p a:hover {
 	color: #364054;
+	transition: all 0.5s ease 0s;
+}
+
+#story {
+	background: url("../images/about-img.png") no-repeat;
+	background-color: #364054;
+	background-position: 90% bottom;
+	/*transition: background 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;*/
+	/*position: fixed;*/
+	width: 100%;
+	height: 100%;
+}
+
+.about {
+	text-align: left;
+	color: #fff;
+	width: 50%;
+	padding: 5em 0 1.5em;
+	font-size: 1.5em;
+}
+
+.about div a,a:link {
+	color: #f1c40f;
+}
+
+.about a:hover {
+	color: #fff;
 	transition: all 0.5s ease 0s;
 }
 
