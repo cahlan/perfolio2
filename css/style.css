@@ -17,6 +17,7 @@ body {
 	color: #fff;
 	background: url("../images/timp2.jpg") no-repeat;
 	background-size: 100%;
+	background-attachment: fixed;
 	/*background-position:;*/
 	/*position: fixed;*/
 	height: 100%;
@@ -201,6 +202,7 @@ section .sub-title {
 	background: url("../images/about-img.jpg") no-repeat;
 	background-color: #111F2C;
 	background-position: right bottom;
+	background-attachment: fixed;
 	/*transition: background 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;*/
 	/*position: fixed;*/
 	width: 100%;
