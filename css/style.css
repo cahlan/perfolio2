@@ -16,7 +16,7 @@ body {
 	font-weight: 500;
 	color: #fff;
 	background: url("../images/timp2.jpg") no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: 50% 50%;
 	background-attachment: fixed;
 	height: 100%;
