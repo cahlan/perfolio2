@@ -250,13 +250,69 @@ section .sub-title {
 	transition: all 0.5s ease 0s;
 }
 
-#blog header .blog-active a,a:link {
+#blog header .blog-active a {
+	color: #fff;
+}
+
+#blog header .blog-active a:link {
 	color: #fff;
 }
 
 #blog header .blog-active a:hover {
 	color: #364054;
 	transition: all 0.5s ease 0s;
+}
+
+footer {
+	width: 100%;
+	height: 100%;
+}
+
+footer #back-top {
+	position: fixed;
+	bottom: 20px;
+	margin-left: 1305px;
+}
+
+footer #back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 12px/100% "Champagne & Limousines", sans-serif, "Tw Cen MT", Verdana;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+footer #back-top a:hover {
+	color: #000;
+}
+
+/* arrow icon (span tag) */
+footer #back-top span {
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url(up-arrow.png) no-repeat center center;
+
+	/* rounded corners */
+	-webkit-border-radius: 0.1em;
+	-moz-border-radius: 0.1em;
+	border-radius: 0.1em;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+footer #back-top a:hover span {
+	background-color: rgba(54, 64, 84, .5);
 }
 
 /* =============================================================================
