@@ -270,8 +270,8 @@ footer {
 
 footer #back-top {
 	position: fixed;
-	bottom: 20px;
-	margin-left: 1305px;
+	bottom: 0.5em;
+	margin-left: 95%;
 }
 
 footer #back-top a {
@@ -295,11 +295,11 @@ footer #back-top a:hover {
 
 /* arrow icon (span tag) */
 footer #back-top span {
-	width: 108px;
-	height: 108px;
+	width: 65px;
+	height: 65px;
 	display: block;
-	margin-bottom: 7px;
-	background: #ddd url(up-arrow.png) no-repeat center center;
+	margin-bottom: 1px;
+	background: rgba(221, 221, 221, .7) url(up-arrow.png) no-repeat center center;
 
 	/* rounded corners */
 	-webkit-border-radius: 0.1em;
