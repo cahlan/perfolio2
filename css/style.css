@@ -193,6 +193,7 @@ section .sub-title {
 	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
+	padding-bottom: 5em;
 }
 
 .about {
