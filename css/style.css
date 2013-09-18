@@ -277,8 +277,8 @@ section .sub-title {
 	transition: all 0.5s ease 0s;
 }
 
-#work header {
-
+#work, #blog {
+	background: none;
 }
 
 footer {
