@@ -277,7 +277,10 @@ section .sub-title {
 	transition: all 0.5s ease 0s;
 }
 
-
+#work-html {
+	background: none;
+	
+}
 
 footer {
 	width: 100%;
