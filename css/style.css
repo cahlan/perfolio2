@@ -264,6 +264,19 @@ section .sub-title {
 	transition: all 0.5s ease 0s;
 }
 
+#work header .work-active a {
+	color: #fff;
+}
+
+#work header .work-active a:link {
+	color: #fff;
+}
+
+#work header .work-active a:hover {
+	color: #364054;
+	transition: all 0.5s ease 0s;
+}
+
 footer {
 	width: 100%;
 	height: 100%;
