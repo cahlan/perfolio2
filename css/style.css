@@ -244,8 +244,8 @@ section .sub-title {
 }
 
 #button-contact a:hover {
-	border: 5px solid #ffa333;
-	color: #ffa333;
+	border: 5px solid rgba(54, 64, 84, .8); /*#364054;*/
+	color: rgba(54, 64, 84, .8); /*#364054;*/
 	box-shadow: 0 2px 0 rgba(54, 64, 84, .5);
 	text-shadow: 0 2px 0 rgba(54, 64, 84, .5);
 	transition: all 0.5s ease 0s;
@@ -354,6 +354,22 @@ section .sub-title {
 
 #work-html .center {
 	text-align: center;
+}
+
+#work-html .resume {
+	text-align: center;
+	margin: -2em 0 3em;
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+#work-html .resume a {
+	color: #364054;
+}
+
+#work-html .resume a:hover {
+	color: #f1c40f;
+	transition: all 0.5s ease 0s;
 }
 
 footer {
