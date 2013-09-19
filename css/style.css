@@ -296,11 +296,16 @@ section .sub-title {
 
 #work-html {
 	background: whitesmoke; /*#f2f2f2*/
+	color: #364054;
 }
 
-#blog {
-	background: none;
-	background-color: #364054;
+#work-html .title-two {
+	text-align: center;
+	margin: 5em 0 3.5em;
+}
+
+#work-html .one div {
+	font-size: 1.2em;
 }
 
 footer {
@@ -335,6 +340,7 @@ footer #back-top a:hover {
 }
 
 /* arrow icon (span tag) */
+
 footer #back-top span {
 	width: 65px;
 	height: 65px;
@@ -352,6 +358,7 @@ footer #back-top span {
 	-moz-transition: 1s;
 	transition: 1s;
 }
+
 footer #back-top a:hover span {
 	background-color: rgba(54, 64, 84, .5);
 }
@@ -363,12 +370,12 @@ footer .social {
 	padding: 0 0 1em;
 }
 
-
 footer .copy {
 	color: #B8C0D1;
 	text-align: center;
 	padding: 1em 0 5em;
 }
+
 /* =============================================================================
    Media Queries
    ========================================================================== */
