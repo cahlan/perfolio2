@@ -304,8 +304,22 @@ section .sub-title {
 	margin: 5em 0 3.5em;
 }
 
+#work-html .one {
+	width: 332px;
+	height: 100%;
+}
+
 #work-html .one div {
 	font-size: 1.2em;
+}
+
+#work-html .one a {
+	color: #f1c40f;
+}
+
+#work-html .one a:hover {
+	color: #364054;
+	transition: all 0.5s ease 0s;
 }
 
 footer {
