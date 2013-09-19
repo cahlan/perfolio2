@@ -309,6 +309,7 @@ section .sub-title {
 	width: 332px;
 	height: 100%;
 	float: left;
+	margin-bottom: 10em;
 }
 
 #work-html .one div {
@@ -327,12 +328,18 @@ section .sub-title {
 	transition: all 0.5s ease 0s;
 }
 
-
+#work-html footer .copy {
+	background-color: whitesmoke;
+	color: #B8C0D1;
+	text-align: center;
+	padding: 1em 0 5em;
+}
 
 footer {
 	width: 100%;
 	height: 100%;
 	background-color: #fff;
+	clear: left;
 }
 
 footer #back-top {

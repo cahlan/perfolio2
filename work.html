@@ -46,6 +46,13 @@
 				<div><strong>Web Developer Tool Challenge II</strong></div>
 				<div>Replicate the <a href="http://bennstancil.com/fantasy-football-league-projection-differences" title="" target="_blank">original site</a>. <br><em>(HTML5, CSS3, Web Developer Tool, W3C Validation, Git workflow)</em></div>
 			</div>
+		</div><!--container-->
+
+		<div class="container">
+			<div class="title-two">FULL SAIL UNIVERSITY</div>
+		</div><!--.container-->		
+
+		<div class="container">
 			<div class="one">
 				<a href="http://tiafaupurcell.github.io/perfolio/" title="" target="_blank"><img src="./images/chimp_three.jpg" alt=""></a>
 				<div><strong>Portfolio Challenge</strong></div>
@@ -61,6 +68,13 @@
 				<div><strong>Web Developer Tool Challenge II</strong></div>
 				<div>Replicate the <a href="http://bennstancil.com/fantasy-football-league-projection-differences" title="" target="_blank">original site</a>. <br><em>(HTML5, CSS3, Web Developer Tool, W3C Validation, Git workflow)</em></div>
 			</div>
+		</div><!--.container-->
+
+		<div class="container">
+			<div class="title-two">OTHER</div>
+		</div><!--.container-->	
+
+		<div class="container">
 			<div class="one">
 				<a href="http://tiafaupurcell.github.io/perfolio/" title="" target="_blank"><img src="./images/chimp_three.jpg" alt=""></a>
 				<div><strong>Portfolio Challenge</strong></div>
@@ -79,8 +93,42 @@
 		</div><!--.container-->
 
 	<footer>
-
+		<div class="copy">&copy 2013 Tiafau Purcell. All rights reserved.</div>
+		<div id="back-top">
+			<a href="#top" title=""><span></span></a>
+		</div>
 	</footer>
+
+	<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+
+	<script>
+	$(document).ready(function(){
+
+		// hide #back-top first
+		$("#back-top").hide();
+		
+		// fade in #back-top
+		$(function () {
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) {
+					$('#back-top').fadeIn();
+				} else {
+					$('#back-top').fadeOut();
+				}
+			});
+
+			// scroll body to 0px on click
+			$('#back-top a').click(function () {
+				$('body,html').animate({
+					scrollTop: 0
+				}, 800);
+				return false;
+			});
+		});
+
+	});
+	</script>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
