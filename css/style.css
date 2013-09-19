@@ -251,6 +251,11 @@ section .sub-title {
 	transition: all 0.5s ease 0s;
 }
 
+#blog {
+	background: none;
+	background-color: #364054;
+}
+
 #blog header nav a {
 	color: #fff;
 }
