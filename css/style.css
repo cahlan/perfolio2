@@ -340,6 +340,10 @@ section .sub-title {
 	padding: 1em 0 5em;
 }
 
+#work-html .margin .one {
+	margin-top: -8em;
+}
+
 footer {
 	width: 100%;
 	height: 100%;
