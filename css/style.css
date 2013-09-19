@@ -153,7 +153,7 @@ section .sub-title {
 #work {
 	width: 100%;
 	height: 100%;
-	background-color: #fff;
+	background-color: whitesmoke; /*#f2f2f2*/
 	color: #364054;
 	margin-top: 25%;
 	text-align: center;
@@ -251,25 +251,42 @@ section .sub-title {
 	transition: all 0.5s ease 0s;
 }
 
-#blog header .active a {
+#blog header nav a {
 	color: #fff;
 }
 
-#blog header .active a:link {
-	color: #fff;
-}
-
-#blog header .active a:hover {
-	color: #364054;
+#blog header nav a:hover {
+	color: #f1c40f;
 	transition: all 0.5s ease 0s;
 }
 
-#work-html header .active a {
+#blog header .active a {
+	color: #f1c40f;
+}
+
+#blog header .active a:link {
+	color: #f1c40f;
+}
+
+#blog header .active a:hover {
 	color: #fff;
+	transition: all 0.5s ease 0s;
+}
+
+#blog .nav {
+	border-bottom: 1px solid #fff;
+}
+
+#work-html header nav a:hover {
+	color: #f1c40f;
+}
+
+#work-html header .active a {
+	color: #f1c40f;
 }
 
 #work-html header .active a:link {
-	color: #fff;
+	color: #f1c40f;
 }
 
 #work-html header .active a:hover {
@@ -278,8 +295,12 @@ section .sub-title {
 }
 
 #work-html {
+	background: whitesmoke; /*#f2f2f2*/
+}
+
+#blog {
 	background: none;
-	
+	background-color: #364054;
 }
 
 footer {
