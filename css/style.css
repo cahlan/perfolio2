@@ -372,6 +372,10 @@ section .sub-title {
 	transition: all 0.5s ease 0s;
 }
 
+#work-html .hidden {
+	display: none;
+}
+
 #resume {
 	background: none;
 	background-color: #999;
