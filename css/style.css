@@ -15,6 +15,10 @@ body {
 	font-size: 100%;
 	font-weight: 500;
 	color: #fff;
+	background-color: #fff;
+}
+
+body .bg-main {
 	background: url("../images/timp2.jpg") no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -117,6 +121,7 @@ section .sub-title {
 
 #button {
 	margin-top: 3em;
+	margin-bottom: 25%;
 }
 
 .button {
@@ -155,7 +160,6 @@ section .sub-title {
 	height: 100%;
 	background-color: whitesmoke; /*#f2f2f2*/
 	color: #364054;
-	margin-top: 25%;
 	text-align: center;
 }
 
@@ -380,20 +384,27 @@ section .sub-title {
 
 #resume {
 	background: none;
-	background-color: #999;
+	background-color: #fff;
 	width: 100%;
 	height: 100%;
+	color: #364054;
 }
 
 .left {
+	float: left;
 	width: 332px;
 	height: 100%;
+	text-align: right;
 }
 
 .right {
+	float: left;
 	width: 664px;
 	height: 100%;
+	text-align: left;
 }
+
+#resume 
 
 footer {
 	width: 100%;
