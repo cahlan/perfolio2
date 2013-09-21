@@ -7,5 +7,5 @@ $(document).ready(function() {
     .attr('rel', 'gallery')
     .fancybox({
         padding : 0
-    });	
+    });
 });
