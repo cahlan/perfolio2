@@ -390,21 +390,39 @@ section .sub-title {
 	color: #364054;
 }
 
-.left {
+#resume .left {
 	float: left;
-	width: 332px;
+	width: 300px;
 	height: 100%;
 	text-align: right;
+	margin-right: 2em;
 }
 
-.right {
+#resume .right {
 	float: left;
 	width: 664px;
 	height: 100%;
 	text-align: left;
 }
 
-#resume 
+#resume .left img {
+	margin-bottom: 1em;
+}
+
+#resume .right .logo {
+	font-size: 3.5em;
+	padding-top: 0;
+	margin: 0em;
+	color: #999;
+}
+
+#resume .right .logo a {
+	color: #364054;
+}
+
+#resume .right .logo a:hover {
+	color: #f1c40f;
+}
 
 footer {
 	width: 100%;
