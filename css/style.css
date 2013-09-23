@@ -388,6 +388,7 @@ section .sub-title {
 	width: 100%;
 	height: 100%;
 	color: #364054;
+	font-size: 1em;
 }
 
 #resume .left {
@@ -395,7 +396,8 @@ section .sub-title {
 	width: 300px;
 	height: 100%;
 	text-align: right;
-	margin-right: 2em;
+	margin-right: 1.5em;
+	font-size: 1.2em;
 }
 
 #resume .right {
@@ -407,6 +409,15 @@ section .sub-title {
 
 #resume .left img {
 	margin-bottom: 1em;
+}
+
+#resume .left a {
+	color: #364054;
+}
+
+#resume .left a:hover {
+	color: #f1c40f;
+	transition: all 0.5s ease 0s;;
 }
 
 #resume .right .logo {
@@ -433,20 +444,41 @@ section .sub-title {
 
 #resume .right h3 {
 	color: #666;
-	font-size: 1.5em;
+	font-size: 1.75em;
 }
 
 #resume .right p {
 	margin: 0 5.5%;
+	font-size: 1.2em;
 }
 
 #resume .right .right-tab, .right-tab2 {
 	margin-left: 5.5%;
+	color: #999;
+	font-size: 1.2em;
 }
 
 #resume .right .right-tab2 {
 	margin-bottom: 1em;
 }
+
+#resume .right-tab a {
+	color: #f1c40f;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+#resume .right-tab a:hover {
+	color: #364054;
+	transition: all 0.5s ease 0s;
+}
+
+#resume .right ul li {
+	list-style-type: none;
+	font-size: 1.2em;
+}
+
+
 
 footer {
 	width: 100%;
