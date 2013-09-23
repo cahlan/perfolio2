@@ -492,6 +492,7 @@ section .sub-title {
 	font-weight: 600;
 	padding: 2em 0 5em;
 	margin: 0 auto;
+	clear: left;
 }
 
 footer {
