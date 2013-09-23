@@ -236,18 +236,18 @@ section .sub-title {
 	font-size: 1.3em;
 }
 
-.button-contact {
+#button-contact {
 	color: #f1c40f;
 	text-decoration: none;
 	padding: 3em 0 5em;
 }
 
-.button-contact a:link {
+#button-contact a:link {
 	box-shadow: 0 2px 0 rgba(54, 64, 84, .5);
 	text-shadow: 0 2px 0 rgba(54, 64, 84, .5);
 }
 
-.button-contact a:hover {
+#button-contact a:hover {
 	border: 5px solid rgba(54, 64, 84, .8); /*#364054;*/
 	color: rgba(54, 64, 84, .8); /*#364054;*/
 	box-shadow: 0 2px 0 rgba(54, 64, 84, .5);
@@ -560,12 +560,6 @@ footer .copy {
 	padding: 1em 0 5em;
 }
 
-#blog footer div {
-	background-color: #364054;
-	color: #B8C0D1;
-	text-align: center;
-	margin-top: 10.5em;
-}
 
 /* =============================================================================
    Media Queries
