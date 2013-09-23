@@ -489,6 +489,7 @@ section .sub-title {
 
 #resume footer div {
 	text-align: center;
+	font-weight: 600;
 }
 
 footer {
