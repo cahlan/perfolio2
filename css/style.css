@@ -382,6 +382,13 @@ section .sub-title {
 	display: none;
 }
 
+#blog footer .copy {
+	background-color: #364054;
+	color: #B8C0D1;
+	text-align: center;
+	margin-top: 10em;
+}
+
 #resume {
 	background: none;
 	background-color: #fff;
@@ -488,11 +495,7 @@ section .sub-title {
 }
 
 #resume footer {
-	text-align: center;
-	font-weight: 600;
-	padding: 2em 0 5em;
-	margin: 0 auto;
-	clear: left;
+	margin-bottom: 3em;
 }
 
 footer {
