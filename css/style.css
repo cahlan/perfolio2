@@ -382,13 +382,6 @@ section .sub-title {
 	display: none;
 }
 
-#blog footer div {
-	background-color: #364054;
-	color: #B8C0D1;
-	text-align: center;
-	margin-top: 10.5em;
-}
-
 #resume {
 	background: none;
 	background-color: #fff;
@@ -565,6 +558,13 @@ footer .copy {
 	color: #B8C0D1;
 	text-align: center;
 	padding: 1em 0 5em;
+}
+
+#blog footer div {
+	background-color: #364054;
+	color: #B8C0D1;
+	text-align: center;
+	margin-top: 10.5em;
 }
 
 /* =============================================================================
