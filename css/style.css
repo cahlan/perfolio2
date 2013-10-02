@@ -9,9 +9,16 @@ Copyright 2013, Josh Cope
 
 /*enter styling here*/
 
+@font-face {
+	font-family: "Champagne & Limousines";
+	src: url("../fonts/Champagne & Limousines.ttf");
+	font-weight: 500;
+	/*font-style: normal, italic, oblique;*/
+}
+
 body {
 	text-rendering: optimizelegibility;
-	font-family: "Champagne & Limousines", sans-serif, "Tw Cen MT", Verdana;
+	font-family: "Champagne & Limousines", "Tw Cen MT", sans-serif, Verdana;
 	font-size: 100%;
 	font-weight: 500;
 	color: #fff;
@@ -19,7 +26,7 @@ body {
 }
 
 body .bg-main {
-	background: url("../images/timp2.jpg") no-repeat;
+	background: url("../images/timp4.jpg") no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	background-attachment: fixed;
@@ -39,7 +46,7 @@ body .bg-main {
 
 header {
 	text-align: center;
-	color: #364054;
+	color: #382d3e;
 }
 
 .logo {
@@ -49,16 +56,16 @@ header {
 	padding: 0.5em 0;
 	font-size: 1.3em;
 	margin-bottom: 4em;
-	color: #364054;
+	color: #382d3e; /* dark blue #364054*/
 	font-weight: 600;
 }
 
 header div a {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 }
 
 .logo a:link {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 	text-decoration: none;
 }
 
@@ -72,13 +79,13 @@ header div a {
 }
 
 .logo a:hover span {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 	transition: all 0.5s ease 0s;
 }
 
 .nav {
 	width: 5em;
-	border-bottom: 1px solid #364054;
+	border-bottom: 1px solid #382d3e; /*dark blue #364054*/
 	display: inline;
 	padding-bottom: 2em;
 }
@@ -94,7 +101,7 @@ nav div {
 }
 
 .nav div a,a:link {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 	text-decoration: none;
 }
 
@@ -105,23 +112,23 @@ nav div {
 
 #intro {
 	line-height: 60px;
-    padding-top: 11.5em;
+    padding-top: 13.5em;
     text-align: center;
 }
 
 section .title {
 	font-size: 2em;
-	text-shadow: 0 2px 0 rgba(54, 64, 84, .9);
+	text-shadow: 0 2px 0 rgba(56, 45, 62, .9);
 }
 
 section .sub-title {
 	font-size: 5em;
-	text-shadow: 0 2px 0 rgba(54, 64, 84, .9);
+	text-shadow: 0 2px 0 rgba(56, 45, 62, .9);
 }
 
-#button {
+#intro #button {
 	margin-top: 3em;
-	margin-bottom: 25%;
+	padding-bottom: 25%;
 }
 
 .button {
@@ -134,11 +141,11 @@ section .sub-title {
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.5em;
-	box-shadow: 0 2px 0 rgba(54, 64, 84, .9);
-	text-shadow: 0 2px 0 rgba(54, 64, 84, .9);
-	-webkit-border-radius: 0.1em;
+	/*box-shadow: 0 2px 0 rgba(56, 45, 62, .9);*/
+	/*text-shadow: 0 2px 0 rgba(56, 45, 62, .9);*/
+	/*-webkit-border-radius: 0.1em;
 	-moz-border-radius: 0.1em;
-	border-radius: 0.1em;
+	border-radius: 0.1em;*/
 	margin: 0 auto;
 }
 
@@ -150,16 +157,16 @@ section .sub-title {
 #button a:hover {
 	border: 5px solid #fff;
 	color: #fff;
-	box-shadow: 0 2px 0 rgba(54, 64, 84, .9);
-	text-shadow: 0 2px 0 rgba(54, 64, 84, .9);
+	/*box-shadow: 0 2px 0 rgba(56, 45, 62, .9);*/
+	/*text-shadow: 0 2px 0 rgba(56, 45, 62, .9);*/
 	transition: all 0.5s ease 0s;
 }
 
 #work {
 	width: 100%;
 	height: 100%;
-	background-color: whitesmoke; /*#f2f2f2*/
-	color: #364054;
+	background-color: #fff; /*#f2f2f2 or whitesmoke*/
+	color: #382d3e; /*dark blue #364054*/
 	text-align: center;
 }
 
@@ -172,7 +179,7 @@ section .sub-title {
 
 .one img {
 	margin: 0 0.5em 1.5em;
-	border: 5px solid rgba(54, 64, 84, .9);
+	/*border: 5px solid rgba(54, 64, 84, .9);*/
 }
 
 .p {
@@ -186,14 +193,14 @@ section .sub-title {
 }
 
 .p a:hover {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 	transition: all 0.5s ease 0s;
 }
 
 #story {
-	background: url("../images/about-img.jpg") no-repeat;
-	background-color: #364054; /* dark blue #111F2C*/
-	background-position: right bottom;
+	background: url("../images/about-img2.png") no-repeat;
+	background-color: #382d3e; /* light blue #364054 dark blue #111F2C */
+	background-position: 93% bottom;
 	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
@@ -219,7 +226,7 @@ section .sub-title {
 
 #contact {
 	background-color: #fff;
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 	text-align: center;
 	width: 100%;
 	height: 100%;
@@ -232,7 +239,7 @@ section .sub-title {
 }
 
 #contact .sub-p {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 	font-size: 1.3em;
 }
 
@@ -242,22 +249,22 @@ section .sub-title {
 	padding: 3em 0 5em;
 }
 
-#button-contact a:link {
-	box-shadow: 0 2px 0 rgba(54, 64, 84, .5);
-	text-shadow: 0 2px 0 rgba(54, 64, 84, .5);
-}
+/*#button-contact a:link {
+	box-shadow: 0 2px 0 rgba(56, 45, 62, .5);
+	text-shadow: 0 2px 0 rgba(56, 45, 62, .5);
+}*/
 
 #button-contact a:hover {
-	border: 5px solid rgba(54, 64, 84, .8); /*#364054;*/
-	color: rgba(54, 64, 84, .8); /*#364054;*/
-	box-shadow: 0 2px 0 rgba(54, 64, 84, .5);
-	text-shadow: 0 2px 0 rgba(54, 64, 84, .5);
+	border: 5px solid rgba(56, 45, 62, .8); /* dark purple #382d3e*/
+	color: rgba(56, 45, 62, .8); /* dark purple #382d3e*/
+	/*box-shadow: 0 2px 0 rgba(56, 45, 62, .8);*/ /* dark purple #382d3e*/
+	/*text-shadow: 0 2px 0 rgba(56, 45, 62, .8);*/ /* dark purple #382d3e*/
 	transition: all 0.5s ease 0s;
 }
 
 #blog {
 	background: none;
-	background-color: #364054;
+	background-color: #382d3e; /* dark blue #111F2C*/
 }
 
 #blog header nav a {
@@ -294,6 +301,11 @@ section .sub-title {
 	height: 100%;
 }
 
+#work-html {
+	background-color: #fff; /*#f2f2f2 or whitesmoke*/
+	color: #382d3e; /*dark blue #364054*/
+}
+
 #work-html header nav a:hover {
 	color: #f1c40f;
 }
@@ -307,18 +319,17 @@ section .sub-title {
 }
 
 #work-html header .active a:hover {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 	transition: all 0.5s ease 0s;
 }
 
-#work-html {
-	background: whitesmoke; /*#f2f2f2*/
-	color: #364054;
+#work-html .logo {
+	border-bottom: 1px solid #B8C0D1;
 }
 
 #work-html .title-two {
 	text-align: center;
-	margin: 10em 0 3.5em;
+	margin: 9.5em 0 3.5em;
 	clear: left;
 	padding-top: 0;
 }
@@ -343,12 +354,12 @@ section .sub-title {
 }
 
 #work-html .one a:hover {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 	transition: all 0.5s ease 0s;
 }
 
 #work-html footer .copy {
-	background-color: whitesmoke;
+	background-color: #fff;
 	color: #B8C0D1;
 	text-align: center;
 	padding: 1em 0 5em;
@@ -360,6 +371,7 @@ section .sub-title {
 
 #work-html .center {
 	text-align: center;
+	clear: left;
 }
 
 #work-html .resume {
@@ -370,7 +382,7 @@ section .sub-title {
 }
 
 #work-html .resume a {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 }
 
 #work-html .resume a:hover {
@@ -387,7 +399,7 @@ section .sub-title {
 	background-color: #fff;
 	width: 100%;
 	height: 100%;
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 	font-size: 1em;
 }
 
@@ -408,11 +420,11 @@ section .sub-title {
 }
 
 #resume .left img {
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 #resume .left a {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 }
 
 #resume .left a:hover {
@@ -428,23 +440,31 @@ section .sub-title {
 }
 
 #resume .right .logo a {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 }
 
 #resume .right .logo a:hover {
 	color: #f1c40f;
 }
 
+#resume .intro div {
+	font-size: 1.2em;
+}
+
 #resume .right .sub-title {
 	color: #999;
 	font-size: 2.3em;
 	margin-top: -1em;
-	margin-bottom: 1em;
+	margin-bottom: 0.325em;
 }
 
 #resume .right h3 {
 	color: #666;
 	font-size: 1.75em;
+}
+
+#resume .right .exp h3 {
+	margin-top: 1em;
 }
 
 #resume .right p {
@@ -469,7 +489,7 @@ section .sub-title {
 }
 
 #resume .right-tab a:hover {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 	transition: all 0.5s ease 0s;
 }
 
@@ -479,7 +499,7 @@ section .sub-title {
 }
 
 #resume .right .project a {
-	color: #364054;
+	color: #382d3e; /*dark blue #364054*/
 }
 
 #resume .right .project a:hover {
@@ -498,55 +518,6 @@ footer {
 	clear: left;
 }
 
-footer #back-top {
-	position: fixed;
-	bottom: 0.2em;
-	margin-left: 95%;
-}
-
-footer #back-top a {
-	width: 108px;
-	display: block;
-	text-align: center;
-	font: 12px/100% "Champagne & Limousines", sans-serif, "Tw Cen MT", Verdana;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #bbb;
-
-	/* transition */
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
-	transition: 1s;
-}
-
-footer #back-top a:hover {
-	color: #000;
-}
-
-/* arrow icon (span tag) */
-
-footer #back-top span {
-	width: 65px;
-	height: 65px;
-	display: block;
-	margin-bottom: 7px;
-	background: rgba(221, 221, 221, .7) url("../images/up-arrow.png") no-repeat center center;
-
-	/* rounded corners */
-	-webkit-border-radius: 0.1em;
-	-moz-border-radius: 0.1em;
-	border-radius: 0.1em;
-
-	/* transition */
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
-	transition: 1s;
-}
-
-footer #back-top a:hover span {
-	background-color: rgba(54, 64, 84, .5);
-}
-
 footer .social {
 	width: 100%;
 	height: 100%;
@@ -559,6 +530,55 @@ footer .copy {
 	text-align: center;
 	padding: 1em 0 5em;
 }
+
+/*footer #back-top {
+	position: fixed;
+	bottom: 0.2em;
+	margin-left: 95%;
+}
+
+footer #back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 12px/100% "Champagne & Limousines", sans-serif, "Tw Cen MT", Verdana;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;*/
+
+	/* transition */
+	/*-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+footer #back-top a:hover {
+	color: #000;
+}*/
+
+/* arrow icon (span tag) */
+
+/*footer #back-top span {
+	width: 65px;
+	height: 65px;
+	display: block;
+	margin-bottom: 7px;
+	background: rgba(221, 221, 221, .7) url("../images/up-arrow.png") no-repeat center center;*/
+
+	/* rounded corners */
+	/*-webkit-border-radius: 0.1em;
+	-moz-border-radius: 0.1em;
+	border-radius: 0.1em;*/
+
+	/* transition */
+	/*-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+footer #back-top a:hover span {
+	background-color: rgba(54, 64, 84, .5);
+}*/
 
 
 /* =============================================================================
