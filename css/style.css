@@ -461,10 +461,15 @@ section .sub-title {
 #resume .right h3 {
 	color: #666;
 	font-size: 1.75em;
+	margin-bottom: 0;
 }
 
 #resume .right .exp h3 {
 	margin-top: 1em;
+}
+
+#resume .right .ast ul {
+	margin-top: 0;
 }
 
 #resume .right p {
