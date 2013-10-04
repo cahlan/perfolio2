@@ -419,8 +419,9 @@ section .sub-title {
 	text-align: left;
 }
 
-#resume .left img {
-	margin-bottom: 2em;
+#resume .left .plogo {
+	margin-bottom: 0.25em;
+	margin-right: 2.25em;
 }
 
 #resume .left a {
